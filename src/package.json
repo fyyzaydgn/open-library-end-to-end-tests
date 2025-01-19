@@ -1,0 +1,24 @@
+{
+  "name": "open-library-end-to-end-tests",
+  "version": "1.0.0",
+  "description": "Welcome to open-library-end-to-end-tests repository. This repository is designed to facilitate efficient and collaborative testing using Cucumber and Cypress. In this repository, we leverage the power of Gherkin syntax and BDD principles to create clear and understandable test scenarios for \"https://openlibrary.org\" website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "all-scenarios-headed-chrome": "cypress run --headed --browser chrome 'cypress/e2e/**/*.{feature,cy.js}'",
+    "all-scenarios-headless-chrome": "cypress run --headless --browser chrome 'cypress/e2e/**/*.{feature,cy.js}'",
+    "all-scenarios-headed-edge": "cypress run --headed --browser edge 'cypress/e2e/**/*.{feature,cy.js}'",
+    "all-scenarios-headless-edge": "cypress run --headed --browser edge 'cypress/e2e/**/*.{feature,cy.js}'",
+    "all-scenarios-headed-firefox": "cypress run --headed --browser firefox 'cypress/e2e/**/*.{feature,cy.js}'",
+    "all-scenarios-headless-firefox": "cypress run --headed --browser firefox 'cypress/e2e/**/*.{feature,cy.js}'"
+  },
+  "author": "Feyyaz Aydogan",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.0",
+    "cypress": "^14.0.0"
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "apiBaseUrl": "https://openlibrary.org",
+    "apiUrlSearch": "https://openlibrary.org/search.json",
+    "apiUrlAuthor": "https://openlibrary.org/authors",
+    "apiUrlSubjects": "https://openlibrary.org/subjects"
+}
