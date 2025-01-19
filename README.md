@@ -1,6 +1,26 @@
 # Introduction 
 Welcome to open-library-end-to-end-tests repository. This repository is designed to facilitate efficient and collaborative testing using Cucumber and Cypress. In this repository, we leverage the power of Gherkin syntax and BDD principles to create clear and understandable test scenarios for \"https://openlibrary.org\" website.",
 
+## Chosen Tools and Technologies
+This project was developed using the following tools and technologies:
+
+### **JavaScript**
+JavaScript is used for both the front-end and back-end of this project, as it is a powerful, widely-used language with excellent community support and versatility.
+
+### **Cypress**
+Cypress is used for **end-to-end testing** in this project. It provides a fast, reliable, and developer-friendly way to test web applications. With its simple syntax and real-time reloading, Cypress allows for an efficient test process, ensuring the application functions as expected throughout the development lifecycle.
+
+#### Why Cypress?
+- It integrates well with JavaScript and is easy to set up, especially for end-to-end testing.
+- Cypress provides an interactive interface that shows tests running in real-time, which improves the debugging process.
+
+### **Cucumber BDD**
+To write tests in a more human-readable format, I used **Cucumber BDD** (Behavior-Driven Development). This approach allows for tests to be written in plain English, which is beneficial for communication between technical and non-technical team members.
+
+#### Why Cucumber BDD?
+- **Readability**: Cucumber's Gherkin syntax (`Given-When-Then`) allows test cases to be written in a language that is easy to understand, which improves collaboration across different stakeholders.
+- **Maintainability**: By decoupling test logic from implementation details, Cucumber promotes more maintainable and scalable tests.
+- **Collaboration**: It helps foster better communication between developers, testers, and business stakeholders, ensuring everyone understands the system's behavior.
 
 # Getting Started
 
